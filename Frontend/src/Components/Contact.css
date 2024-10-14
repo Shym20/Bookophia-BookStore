@@ -1,0 +1,114 @@
+.three-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+.b1, .b2 , .b3{
+    width: 300px;
+    height: 140px;
+
+    margin: 0 2%;
+}
+.emailus{
+    font-weight: 500;
+}
+/* Container for the contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form input fields */
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  /* Error messages */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Success message */
+  .success-message {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Submit button */
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .contact-form {
+      padding: 15px;
+    }
+  
+    .contact-form h2 {
+      font-size: 20px;
+    }
+  
+    .contact-form button {
+      font-size: 16px;
+    }
+  }
+  
